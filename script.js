@@ -10,7 +10,6 @@ buttons.map(button => button.addEventListener('click', (e)=>{
             try{
                 display.innerText= eval(display.innerText);
             }
-
             catch{
                 display.innerText='Error';
             }
